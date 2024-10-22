@@ -1,0 +1,14 @@
+credentials:
+  usernames:
+    dpuser:
+      name: any
+      logged_in: False # Will be managed automatically
+      password: $2b$12$st9xwmTTkZufuYlQzIDDfeJK6fZoCB9ANzFexi/qQ1YVZFbMdo4oK # Will be hashed automatically
+
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  usernames:
+  - dpusergit
